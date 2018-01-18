@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFScreenBrightness"
         mc:Ignorable="d"
-        Title="MainWindow" Height="217" Width="50" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}" WindowStartupLocation="CenterScreen">
+        Title="MainWindow" Height="217" Width="50" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}" WindowStartupLocation="CenterScreen" Loaded="MainWindow1_Loaded">
     <Border x:Name="mainBorder" CornerRadius="5" Background="#7F000000">
         <Grid x:Name="mainGrid">
             <Slider x:Name="slider" HorizontalAlignment="Center" VerticalAlignment="Center" Height="200" Width="31.46" RenderTransformOrigin="0.5,0.5" Margin="0" SmallChange="1" Maximum="15" ValueChanged="slider_ValueChanged" Background="#FFBDFF00" Orientation="Vertical" Value="12" LargeChange="5" Cursor="Hand" UseLayoutRounding="False" TickPlacement="Both" Foreground="#FF7F7F7F"/>
